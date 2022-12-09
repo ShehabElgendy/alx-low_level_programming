@@ -1,6 +1,6 @@
 #include <stdio.h>
 /***
- * main - Entry - Point
+ * main - Entry point
  *
  * Return: ALways 0 (Sucess)
  */
