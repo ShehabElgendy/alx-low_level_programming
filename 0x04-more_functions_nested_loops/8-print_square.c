@@ -1,19 +1,28 @@
 #include "main.h"
 
 /**
- * print_square - Print square lines.
- * @n: Number of lines
+ * print_square - Prints a square made of #s.
+ * @size: Square's dimension
  *
  * Return: There is no return value
  */
+
 void print_square(int size)
 {
-    int i;
-    int n;
-    
-    if (n > 0)
-    {
-        for (i = 0; i <= n; i++);
-        _putchar("#");
-    }
+	int i;
+	int j;
+
+	if (size > 0)
+	{
+		for (i = 0; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
+	}
+	else
+		_putchar('\n');
 }
